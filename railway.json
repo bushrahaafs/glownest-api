@@ -1,0 +1,12 @@
+{
+  "build": {
+    "rootDir": "GlowNestBackend",
+    "commands": [
+      "dotnet restore GlowNestBackend.csproj",
+      "dotnet build GlowNestBackend.csproj -c Release"
+    ]
+  },
+  "start": {
+    "cmd": "dotnet run --project GlowNestBackend.csproj --urls http://0.0.0.0:${PORT}"
+  }
+}
