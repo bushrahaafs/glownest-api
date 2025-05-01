@@ -1,0 +1,6 @@
+@GlowNestBackend_HostAddress = http://localhost:5076
+
+GET {{GlowNestBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
